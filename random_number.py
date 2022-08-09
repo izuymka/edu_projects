@@ -15,7 +15,6 @@ while True:
     count = 0
     import random
     import time
-    import os
 
     random_number = random.randint(0, 100)
     user_number = input('Введите число от 0 до 100. ')
@@ -34,7 +33,7 @@ while True:
                 print('Вы исчерпали 6 попыток. Игра окончена.')
                 print('Число которое было загадано:', random_number)
                 break
-            print('Вы ввели число больше! попробуйте ещё раз.')
+            print('Вы ввели число больше! Попробуйте ещё раз.')
             user_number = input('Введите число: ')
             user_number = number_control(user_number)
             user_number = int(user_number)
@@ -56,7 +55,6 @@ while True:
 
         elif user_number == random_number:
             print('Вы угадали! Ураа!')
-            os.system('cls')
             break
 
     print('Хотите сыграть ещё раз?')
@@ -64,9 +62,7 @@ while True:
     if replay_the_game.isdigit():
         print('Удачной игры.')
         time.sleep(3)
-        os.system('cls')
     elif not replay_the_game.isdigit():
         print('Спасибо за игру. До свидания!')
-        os.system('cls')
         break
 
