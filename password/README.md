@@ -1,4 +1,4 @@
-###Password_generator
+### Password_generator
 The application will be able to generate 1 or more parodies (at the discretion of the creator) of various lengths, the password can be customized to suit your needs (by choosing "yes" or "no" to clarifying questions).
 
 __Realized app functions:__
@@ -13,7 +13,7 @@ _Report on the work done:_
 This project is educational, its purpose is to fill your hand :) The project is small in scope, fascinating and easy to implement. I've always been too lazy to come up with different passwords for services, the program makes this task easier. Of course, Google itself offers to generate a password for some applications and it is more secure, but thanks to this project, an approximate understanding of how to implement password generation has appeared.
 
 ---
-###Генератор паролей
+### Генератор паролей
  Приложение сможет сгенерировать 1 или больше пародей (на усмотрение создаюшего) различной длины, пароль можно кастомизировать под свои потребности (выбрав "да" или "нет" на уточняющие вопросы).
 
 __Реализованные функции приложения:__
